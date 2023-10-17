@@ -1,0 +1,85 @@
+
+
+/* Estilos Gerais da Aplicação */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #ffffff;
+  background-image: url(./Imagens/Logo\ de\ est.png);
+}
+
+/* Contêiner Principal da Aplicação */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos do Cabeçalho (Header) */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos da Lista de Navegação (nav) */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  margin-right: 100px;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+}
+
+nav ul li p {
+  text-decoration: none;
+  color: #fff;
+  border: #333;
+}
+
+
+main {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+}
+
+/* Estilos para o Rodapé (Footer) */
+.footerName {
+  background-color: #333;
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos para Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
